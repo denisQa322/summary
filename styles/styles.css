@@ -1,0 +1,162 @@
+
+*{
+    padding:0;
+    margin:0;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+body, html{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+}
+img{
+    width: 100%;
+}
+
+.container{
+    width: 940px;
+    margin: auto;
+}
+.menu{
+    list-style: none;
+    display:flex;
+    justify-content: space-between;
+    font-size:18px;
+    padding: 32px 0;
+    border-bottom: 1px solid black;
+}
+.menu a{
+    color:#828282;
+}
+.info-wrapper{
+    font-size: 18px;
+    font-style: normal;
+    display:flex;
+    justify-content: space-between;
+    align-items:flex-end;
+    padding-bottom: 30px;
+    padding-top: 39px;
+}
+.info-wrapper h1{
+    font-weight: 400;
+    font-size: 47px;
+}
+.info-wrapper .language{
+    transform: rotate(-90deg) translateY(150%) translateX(30px);
+}
+section.photo{
+    padding-bottom: 105px;
+}
+section.about-me h2{
+    margin-bottom: 17px;
+    font-weight: 400;
+    font-size: 34px;
+}
+section.about-me{
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 107px;
+    background-color: #F6F6F6;
+}
+section.about-me p{
+    margin-bottom: 55px;
+}
+.about-me p:last-child{
+    margin: 0;
+}
+section.skills{
+    padding-top: 91px;
+    padding-bottom: 177px;
+}
+section.skills h2{
+    margin-bottom: 69px;
+    font-weight: 400;
+    font-size: 34px;
+    text-align: center;
+}
+section.skills p{
+    margin-bottom: 83px;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+}
+.skills-images{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.skills-images img{
+    width: 89px;
+    height: 89px;
+}
+.skills-images a{
+    color:#828282;
+}
+.skills-images p{
+    padding:24px 24px 0px 24px;
+}
+section.portfolio{
+    padding-top: 112px;
+    padding-bottom: 96px;
+    background-color: #F6F6F6;
+}
+section.portfolio h2{
+    padding-top: 122px;
+    margin-bottom: 47px;
+    font-weight: 400;
+    font-size: 34px;
+    text-align: center;
+}
+section.portfolio p{
+    margin-top: 44px;
+    margin-bottom: 99px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 18px;
+    font-weight: 400;
+}
+section.portfolio p:last-child{
+    margin-bottom:0;
+}
+.contacts{
+    padding-top: 144px;
+}
+section.contacts h2{
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 34px;
+    text-align: center;
+}
+section.contacts p{
+    text-align: center;
+    margin-bottom: 29px;
+}
+.button{
+    margin-top: 30px;
+    margin-bottom: 85px;
+    padding: 13px 30px 13px 30px;
+    color:white;
+    background-color: black;
+    font-size: 18px;
+    border-radius: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+}
+.link-me{
+    padding-top:45px;
+    padding-bottom: 123px;
+    color:#828282;
+}
+.icons img{
+    width: 50px;
+    height: 50px;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+}
