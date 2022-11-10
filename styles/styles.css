@@ -125,6 +125,7 @@ section.portfolio p:last-child{
 }
 .contacts{
     padding-top: 144px;
+    text-align: center;
 }
 section.contacts h2{
     margin-bottom: 20px;
